@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6865621cce8244f85da15a6ac015a3, type: 3}
   m_Name: Warrior-Level-1
   m_EditorClassIdentifier: 
-  heroName: Warrior
-  heroType: 0
-  heroLevel: 1
-  heroHealth: 100
-  heroPowerDamage: 15
-  heroAttackSpeed: 1
-  heroAttackRange: 1
-  heroCost: 0
+  enemyName: 
+  enemyType: 0
+  enemyLevel: 0
+  enemyHealth: 0
+  enemyPowerDamage: 0
+  enemyAttackSpeed: 0
+  enemyAttackRange: 0
+  enemyCost: 0
   hasUltemateAbility: 0
-  heroPrefab: {fileID: 532796982310902999, guid: 2578c627bac61154b9978866ba3d6be5, type: 3}
+  enemyPrefab: {fileID: 532796982310902999, guid: 2578c627bac61154b9978866ba3d6be5, type: 3}

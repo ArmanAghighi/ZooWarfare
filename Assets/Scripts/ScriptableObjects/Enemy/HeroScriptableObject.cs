@@ -1,16 +1,16 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "HeroScriptableObject", menuName = "ScriptableObjects/Hero")]
-public class HeroScriptableObject : ScriptableObject
+[CreateAssetMenu(fileName = "EnemyScriptableObject", menuName = "ScriptableObjects/Enemy")]
+public class EnemyScriptableObject : ScriptableObject
 {
-    public string heroName;
-    public HerroType heroType;
-    [Range(1, 6)] public int heroLevel;
-    public int heroHealth;
-    public int heroPowerDamage;
-    [Range(0, 1)] public float heroAttackSpeed;
-    public int heroAttackRange;
-    public int heroCost;
+    public string enemyName;
+    public EnemyType enemyType;
+    [Range(1, 6)] public int enemyLevel;
+    public int enemyHealth;
+    public int enemyPowerDamage;
+    [Range(0, 1)] public float enemyAttackSpeed;
+    public int enemyAttackRange;
+    public int enemyCost;
     public bool hasUltemateAbility;
-    public GameObject heroPrefab;
+    public GameObject enemyPrefab;
 }

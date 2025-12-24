@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6865621cce8244f85da15a6ac015a3, type: 3}
   m_Name: Archer-Level-1
   m_EditorClassIdentifier: 
-  heroName: Archer
-  heroType: 0
-  heroLevel: 1
-  heroHealth: 80
-  heroPowerDamage: 13
-  heroAttackSpeed: 1
-  heroAttackRange: 3
-  heroCost: 0
+  enemyName: 
+  enemyType: 1
+  enemyLevel: 1
+  enemyHealth: 0
+  enemyPowerDamage: 0
+  enemyAttackSpeed: 0
+  enemyAttackRange: 0
+  enemyCost: 0
   hasUltemateAbility: 0
-  heroPrefab: {fileID: 7949117053701624232, guid: da2d09e7c8c185543862726ba35e52a9, type: 3}
+  enemyPrefab: {fileID: 0}
