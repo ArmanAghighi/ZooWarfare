@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6865621cce8244f85da15a6ac015a3, type: 3}
+  m_Name: Archer-Level-3
+  m_EditorClassIdentifier: 
+  heroName: Archer
+  herroType: 1
+  heroLevel: 3
+  heroHealth: 90
+  heroPowerDamage: 17
+  heroAttackSpeed: 0.9
+  heroAttackRange: 3
+  heroCost: 1200
+  hasUltemateAbility: 0
